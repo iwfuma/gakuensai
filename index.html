@@ -12,11 +12,15 @@
 </head>
 <body>
     <h1>会員登録が完了しました</h1>
-    <p>期限内に<span id="paymentAmount"></span>円お支払いください。</p> 
+    <p>すぐに<span id="paymentAmount"></span>円をお支払いください。</p>
+    
     <!-- カウントダウン -->
 
-    <div id="sec" style="font-size: 2em; font-weight: bold; color:black; text-align: center;"></div>
+    <div id="sec" style="font-size: 2em; font-weight: bold; color:red; text-align: center;"></div>
 
+    <h2 class="title 1" style="color:red;">重要：お支払い期限が迫っています！</h2>
+    <p style="color:red; font-size: 1.5em;">お支払いが遅れると、次の手続きができません！</p>
+    
     <h2 class="title 1">会員情報</h2>
     <table class="table 1">    
         <thead>
@@ -39,7 +43,7 @@
         </tr>
         <tr>
             <td>支店名（支店コード）</td>
-            <td>サレド支店（AF6）</td>
+            <td>サレド支店 （AF6）</td>
         </tr>
         <tr>
             <td>種別</td>
@@ -49,9 +53,9 @@
             <td>口座番号</td>
             <td id="accountNumber"></td>
         </tr>
-        </table>
+    </table>
         
-    <h2 class="title 3">お問い合わせ</h2>
+    <h2 class="title 3" style="color:red;">お急ぎください！</h2>
     <table class="table 3">
         <tr>
             <td>電話番号</td>
@@ -63,9 +67,8 @@
         </tr>
     </table>
     
-    <p>※お支払いが確認できなかった場合は法的措置を取らせていただきます。</p>
-
+    <p style="color:red; font-size: 1.5em;">※お支払いが確認できなかった場合、直ちに法的措置を取ります。</p>
+    
 </body>
 <footer>
-
 </footer>
